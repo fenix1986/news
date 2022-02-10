@@ -1,6 +1,7 @@
-package pl.jprabucki.sages.akademia.newsapi.articles.external;
+package pl.jprabucki.sages.akademia.newsapi.articles;
 
-import pl.jprabucki.sages.akademia.newsapi.articles.Article;
+import pl.jprabucki.sages.akademia.newsapi.articles.external.NewsApiExecutor;
+import pl.jprabucki.sages.akademia.newsapi.articles.external.SimpleNewsApiExecutor;
 import pl.jprabucki.sages.akademia.newsapi.articles.formatters.ArticleFormatter;
 import pl.jprabucki.sages.akademia.newsapi.articles.formatters.DefaultArticleFormatter;
 import pl.jprabucki.sages.akademia.newsapi.files.FileService;
