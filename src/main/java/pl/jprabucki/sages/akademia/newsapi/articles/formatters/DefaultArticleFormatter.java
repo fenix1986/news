@@ -1,4 +1,6 @@
-package pl.jprabucki.sages.akademia.newsapi.articles;
+package pl.jprabucki.sages.akademia.newsapi.articles.formatters;
+
+import pl.jprabucki.sages.akademia.newsapi.articles.Article;
 
 public class DefaultArticleFormatter implements ArticleFormatter {
     @Override
