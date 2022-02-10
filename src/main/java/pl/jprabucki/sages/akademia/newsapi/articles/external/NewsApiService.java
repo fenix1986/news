@@ -1,4 +1,10 @@
-package pl.jprabucki.sages.akademia.newsapi;
+package pl.jprabucki.sages.akademia.newsapi.articles.external;
+
+import pl.jprabucki.sages.akademia.newsapi.articles.Article;
+import pl.jprabucki.sages.akademia.newsapi.articles.ArticleFormatter;
+import pl.jprabucki.sages.akademia.newsapi.articles.DefaultArticleFormatter;
+import pl.jprabucki.sages.akademia.newsapi.files.FileService;
+import pl.jprabucki.sages.akademia.newsapi.files.SimpleFileService;
 
 import java.util.List;
 import java.util.stream.Collectors;

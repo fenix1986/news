@@ -1,8 +1,9 @@
-package pl.jprabucki.sages.akademia.newsapi;
+package pl.jprabucki.sages.akademia.newsapi.articles.external;
 
 import com.kwabenaberko.newsapilib.NewsApiClient;
 import com.kwabenaberko.newsapilib.models.request.TopHeadlinesRequest;
 import com.kwabenaberko.newsapilib.models.response.ArticleResponse;
+import pl.jprabucki.sages.akademia.newsapi.articles.Article;
 
 import java.util.ArrayList;
 import java.util.List;

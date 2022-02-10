@@ -1,4 +1,4 @@
-package pl.jprabucki.sages.akademia.newsapi;
+package pl.jprabucki.sages.akademia.newsapi.articles;
 
 public class Article {
     private final String title;

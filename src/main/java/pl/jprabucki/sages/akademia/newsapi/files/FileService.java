@@ -1,4 +1,4 @@
-package pl.jprabucki.sages.akademia.newsapi;
+package pl.jprabucki.sages.akademia.newsapi.files;
 
 import java.util.List;
 

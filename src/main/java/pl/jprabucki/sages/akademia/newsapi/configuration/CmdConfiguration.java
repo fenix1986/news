@@ -1,8 +1,8 @@
-package pl.jprabucki.sages.akademia.newsapi;
+package pl.jprabucki.sages.akademia.newsapi.configuration;
 
 import org.apache.commons.cli.*;
 
-public class CmdConfigurationParser implements Configuration {
+public class CmdConfiguration implements Configuration {
     private static final String OPTION_API = "api";
     private static final String OPTION_FILE = "file";
 
@@ -31,7 +31,7 @@ public class CmdConfigurationParser implements Configuration {
 
     private final String[] args;
 
-    public CmdConfigurationParser(String[] args) {
+    public CmdConfiguration(String[] args) {
         this.args = args;
     }
 

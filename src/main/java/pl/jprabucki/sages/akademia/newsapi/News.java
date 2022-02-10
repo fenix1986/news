@@ -1,9 +1,14 @@
 package pl.jprabucki.sages.akademia.newsapi;
 
-public class NewsApi {
+import pl.jprabucki.sages.akademia.newsapi.articles.external.NewsApiService;
+import pl.jprabucki.sages.akademia.newsapi.configuration.CmdConfiguration;
+import pl.jprabucki.sages.akademia.newsapi.configuration.Configuration;
+import pl.jprabucki.sages.akademia.newsapi.configuration.NoRequiredArgumentException;
+
+public class News {
 
     public static void main(String[] args) {
-        Configuration configuration = new CmdConfigurationParser(args);
+        Configuration configuration = new CmdConfiguration(args);
 
         try {
             NewsApiService newsApiService = new NewsApiService(configuration.getApiKey(), configuration.getFileName());
