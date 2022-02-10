@@ -1,6 +1,6 @@
 package pl.jprabucki.sages.akademia.newsapi;
 
-import pl.jprabucki.sages.akademia.newsapi.articles.external.NewsApiService;
+import pl.jprabucki.sages.akademia.newsapi.articles.NewsApiService;
 import pl.jprabucki.sages.akademia.newsapi.configuration.CmdConfiguration;
 import pl.jprabucki.sages.akademia.newsapi.configuration.Configuration;
 import pl.jprabucki.sages.akademia.newsapi.configuration.NoRequiredArgumentException;
